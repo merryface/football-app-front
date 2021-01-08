@@ -46,7 +46,7 @@ h1 {
 }
 
 body {
-    background-image: url("../assets/background.jpg");
+    background-image: url("./background.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
