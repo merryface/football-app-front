@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap'); /* Cabin */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap'); /* Ubuntu */
+
+h1, h2, h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+}
+
+:root {
+    --brightGreen: #55FF4B;
+    --darkGreen: #2A8025;
+    --lightGreen: #9CFF96;
+}
+
+.container {
+    background-color: var(--darkGreen);
+    border-radius: 10px;
+    margin: 2rem auto;
+
+    width: 40%;
+    min-width: 300px;
+    max-width: 600px;
+    text-align:center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--brightGreen);
+    padding-top: 2%;
+
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.h2 {
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--brightGreen);
+
+    width: 50%;
+    max-width: 590px;
+
+    color: var(--darkGreen);
+    font-weight: bold;
+}
+
+body {
+    background-image: url("../assets/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
